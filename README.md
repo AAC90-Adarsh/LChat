@@ -17,7 +17,7 @@ There are a few components to this project:
 
 ## To install and run
 #### (Will come up with a script in the future to make it even easier)
-1. First, clone my repository. I have left two default FIFO's in the `chatroom/fifos/` directory, but feel free to delete them and create your own using mkfifo.
+1. First, clone my repository.
    - Example: `mkfifo John` will create a fifo called `John`. Make sure this is in the `chatroom/fifos/` directory!
 2. Make the executables by running `make`. This will create the two executables `reader` and `writer`.
    - If you wish to add on to my code and want to remake the executables, make your changes to the source code and run `make clean`. This will get rid of only the executables `reader` and `writer`. When you are ready to test, just run `make` again. The `chatroom/fifos` directory will remain intact. 
