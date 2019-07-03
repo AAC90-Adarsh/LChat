@@ -1,0 +1,3 @@
+This is the directory where you store your fifos.
+
+Create a fifo by running "mkfifo <name>"
